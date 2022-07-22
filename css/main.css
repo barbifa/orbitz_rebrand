@@ -315,14 +315,14 @@ input, textarea {
 	/*------------ Start Mobile Footer ------------*/
 
 	footer {
-		
+		background-color: #ebdcc1;
 		color: black;
 	}
 
 	footer .footer-nav {
 		display: block;
 		font-weight: 100;
-		color: black;
+		color: #38342D;
 	}
 
 
@@ -336,18 +336,21 @@ input, textarea {
 	nav ul li {
 		display: block;
 		margin-right: 1.25em;
+		margin-top:5px;
 	}
 
 
 	.copyright {
-		font-size: .75em;
+		font-size: 9px;
 		text-align: right;
 		margin-right: .5em;
 	}
 
 	.footer-spacing {
-		padding: 3em 0em 3em 0em;
+		padding: 3em 1em 5em 0em;
 	}
+
+	
 
 	/*------------ End Mobile Footer ------------*/
 }
