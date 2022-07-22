@@ -121,7 +121,7 @@ input, textarea {
 		grid-template-columns: repeat(2, 1fr);
 		justify-content: space-evenly;
 		row-gap: 2em;
-		column-gap: 2em;
+		column-gap: 0;
 	}
 
 	.three-items {
@@ -155,7 +155,7 @@ input, textarea {
 
 	header {
 		position: sticky;
-		background-color: #fff;
+		background-color: #ebdcc1;
 		top: 0px;
 		border-bottom: 1px solid #e6e6e6;
 		box-shadow: 0px 5px 8px #888;
@@ -218,14 +218,14 @@ input, textarea {
 			height: 3px;
 			width: 25px;
 			border-radius: 2px;
-			background-color:#9a2018;
+			background-color:#38342D;
 			position: relative;
 			display: block;
 			transition: all 0.2s ease-in-out;
 		  }
 		  #overlay-button span:before {
 			top: -7px;
-			visibility: visible;
+			visibility: visible;             
 		  }
 		  #overlay-button span:after {
 			top: 7px;
@@ -234,13 +234,13 @@ input, textarea {
 			height: 3px;
 			width: 25px;
 			border-radius: 2px;
-			background-color: #9a2018;
+			background-color: #38342D;
 			position: absolute;
 			content: "";
 			transition: all 0.2s ease-in-out;
 		  }
 		  #overlay-button:hover span, #overlay-button:hover span:before, #overlay-button:hover span:after {
-			background: #333332;
+			background: #38342D;
 		  }
 		  
 		  input[type=checkbox] {
@@ -263,7 +263,7 @@ input, textarea {
 		  #overlay {
 			height: 100vh;
 			width: 100vw;
-			background:#3a342f;
+			background: #fef5e6;;
 			z-index: 2;
 			visibility: hidden;
 			position: absolute;
@@ -289,9 +289,9 @@ input, textarea {
 			padding: .75em;
 		  }
 		  #overlay ul li a {
-			color: white;
+			color: #6b6458;
 			text-decoration: none;
-			font-size: 1.25em;
+			font-size: 40px;
 		  }
 		  #overlay ul li a:hover {
 			color: #333332;
